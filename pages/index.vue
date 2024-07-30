@@ -113,9 +113,49 @@
       </Swiper>
     </div>
   </section>
+
+  <section class="py-10 lg:py-14">
+    <div class="container mx-auto">
+      <div class="flex justify-center flex-wrap -mx-4 gap-y-8">
+        <div v-for="icon in iconlist" :class="icon.containerClass">
+          <div class="text-center space-y-5">
+            <img :src="icon.imgUrl" :alt="icon.title" class="w-[50px] inline-block" />
+            <p class="text-lg">{{ icon.title }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script setup lang="ts">
+const iconlist = [
+  {
+    imgUrl: 'https://codetrace-bs.com.my/wp-content/uploads/2024/06/10-years-experience-1.webp',
+    title: '10 Years Experience',
+    containerClass: 'w-1/2 md:w-1/3 xl:w-1/5 px-4 border-r',
+  },
+  {
+    imgUrl: 'https://codetrace-bs.com.my/wp-content/uploads/2024/04/Sustainable-Growth-1.png',
+    title: 'Sustainable Growth',
+    containerClass: 'w-1/2 md:w-1/3 xl:w-1/5 px-4 md:border-r',
+  },
+  {
+    imgUrl: 'https://codetrace-bs.com.my/wp-content/uploads/2024/06/Tailored-Packages-1.webp',
+    title: 'Tailored Packages',
+    containerClass: 'w-1/2 md:w-1/3 xl:w-1/5 px-4 border-r',
+  },
+  {
+    imgUrl: 'https://codetrace-bs.com.my/wp-content/uploads/2024/06/System-Consultation-1.webp',
+    title: 'System Consultation',
+    containerClass: 'w-1/2 md:w-1/3 xl:w-1/5 px-4 md:border-r',
+  },
+  {
+    imgUrl: 'https://codetrace-bs.com.my/wp-content/uploads/2024/06/Referral-Success-1.webp',
+    title: 'Referral Success',
+    containerClass: 'w-1/2 md:w-1/3 xl:w-1/5 px-4',
+  },
+]
 useSeoMeta({
   title: 'Home',
 })
