@@ -15,6 +15,7 @@
     "clsx": "^2.1.1",
     "lucide-vue-next": "^0.417.0",
     "nuxt": "^3.12.4",
+    "nuxt-swiper": "^1.2.2",
     "radix-vue": "^1.9.2",
     "shadcn-nuxt": "^0.10.4",
     "tailwind-merge": "^2.4.0",
@@ -22,7 +23,9 @@
     "vue": "latest"
   },
   "devDependencies": {
+    "@iconify-json/lucide": "^1.1.203",
     "@nuxtjs/tailwindcss": "^6.12.1",
+    "sass": "^1.77.8",
     "typescript": "^5.5.4",
     "vue-tsc": "^2.0.29"
   }

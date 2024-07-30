@@ -22,15 +22,15 @@
                   v-if="navlink.button"
                   :to="navlink.href"
                   class="text-white py-2 px-4 bg-secondary rounded-full inline-block"
-                  >{{ navlink.name }}</NuxtLink
-                >
+                  >{{ navlink.name }}
+                </NuxtLink>
                 <NuxtLink
                   v-else-if="navlink.href !== '#'"
                   :to="navlink.href"
                   class="inline-block"
-                  ctive-class="text-secondary"
-                  >{{ navlink.name }}</NuxtLink
-                >
+                  active-class="text-secondary"
+                  >{{ navlink.name }}
+                </NuxtLink>
                 <a class="cursor-pointer inline-block" v-else :href="navlink.href">{{ navlink.name }}</a>
               </li>
             </ul>
@@ -49,7 +49,7 @@
                     </VisuallyHidden>
                     <SheetDescription>
                       <ul class="text-lg space-y-4 text-left">
-                        <li v-for="navlink in navlinks" :key="navlink.href">
+                        <li v-for="navlink in navlinks" :key="navlink.href" class="text-black">
                           <SheetClose>
                             <NuxtLink
                               v-if="navlink.button"
