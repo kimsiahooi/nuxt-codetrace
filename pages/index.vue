@@ -185,7 +185,7 @@
         <div class="w-full md:w-2/3 px-4">
           <div class="space-y-5">
             <p>In Malaysia, e-invoice is being implemented with two distinct yet complementing components, which is;</p>
-            <ol class="space-y-3">
+            <ol class="space-y-3 list-decimal pl-5">
               <li>
                 MDED has been mandated by the Government to implement e-invoice for business digitalisation using the
                 Peppol framework
