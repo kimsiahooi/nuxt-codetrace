@@ -7,7 +7,7 @@
             <div
               class="min-h-[550px] bg-bottom bg-no-repeat bg-contain"
               style="background-image: url(https://codetrace-bs.com.my/wp-content/uploads/2024/06/home-banner-1.webp)">
-              <h2 class="mb-5">SQL Accouting <span class="font-normal">Software</span></h2>
+              <h2>SQL Accouting <span class="font-normal">Software</span></h2>
               <div class="space-y-5">
                 <p>
                   As the number one accounting software for e-invoicing, SQL Accounting Software is trusted by
@@ -114,13 +114,62 @@
     </div>
   </section>
 
-  <section class="py-10 lg:py-14">
+  <section class="pt-10 pb-5 lg:pt-14 lg:pb-7">
     <div class="container mx-auto">
       <div class="flex justify-center flex-wrap -mx-4 gap-y-8">
         <div v-for="icon in iconlist" :class="icon.containerClass">
           <div class="text-center space-y-5">
             <img :src="icon.imgUrl" :alt="icon.title" class="w-[50px] inline-block" />
             <p class="text-lg">{{ icon.title }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 lg:py-7">
+    <div class="container mx-auto">
+      <div class="flex flex-col gap-8 items-center md:flex-row">
+        <div class="md:w-1/2">
+          <img
+            src="https://codetrace-bs.com.my/wp-content/uploads/2024/06/Your-One-Stop-Destination-for-Business-Digitalization-Solutions.webp"
+            alt="Your One-Stop Destination for Business Digitalization Solutions" />
+        </div>
+        <div class="md:w-1/2">
+          <h2>Your One-Stop Destination for Business Digitalization Solutions</h2>
+          <div class="space-y-5 text-justify">
+            <p>
+              At Codetrace, we understand the evolving landscape of business operations and the increasing need for
+              seamless digital solutions to stay competitive in today’s market.
+            </p>
+            <p>
+              That’s why we offer a comprehensive suite of services aimed at streamlining your business processes and
+              enhancing productivity.
+            </p>
+            <p>
+              From point-of-sale (POS) systems to enterprise resource planning (ERP) solutions, we’ve got you covered
+              every step of the way.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 lg:py-7">
+    <div class="container mx-auto">
+      <h2>Our Range of Digital Solutions</h2>
+      <div class="flex flex-wrap -mx-4 gap-y-4 md:gap-y-8">
+        <div v-for="(range, index) in ranges" class="px-4 w-full md:w-1/2 xl:w-1/3 flex flex-col" :key="range.title">
+          <div class="p-5 border transition rounded-lg group hover:border-primary space-y-5 flex-1">
+            <p class="font-extrabold text-border transition group-hover:text-primary">
+              {{ (index + 1).toString().padStart(2, '0') }}
+            </p>
+            <img :src="range.imageUrl" :alt="range.title" class="w-14" />
+            <h5 class="font-semibold text-black group-hover:text-primary transition">{{ range.title }}</h5>
+            <p class="text-justify !mt-3 !mb-5">
+              {{ range.description }}
+            </p>
           </div>
         </div>
       </div>
@@ -156,6 +205,46 @@ const iconlist = [
     containerClass: 'w-1/2 md:w-1/3 xl:w-1/5 px-4',
   },
 ]
+
+const ranges = [
+  {
+    imageUrl: '/ranges/accounting-business-system.svg',
+    title: 'Accounting / Business System',
+    description:
+      'Say goodbye to tedious manual accounting processes and embrace automation with our robust accounting and business management systems.',
+  },
+  {
+    imageUrl: '/ranges/hr-payroll-system.svg',
+    title: 'HR / Payroll System',
+    description:
+      'With our HR and payroll systems, automate tasks such as employee scheduling, payroll processing, and performance tracking.',
+  },
+  {
+    imageUrl: '/ranges/erp-system.svg',
+    title: 'ERP System',
+    description:
+      'Integrate various functions such as finance, supply chain, manufacturing, and human resources into a single platform.',
+  },
+  {
+    imageUrl: '/ranges/crm-system.svg',
+    title: 'CRM System',
+    description:
+      'Build stronger customer relationships and drive sales growth with our customer relationship management (CRM) software.',
+  },
+  {
+    imageUrl: '/ranges/pos-software-hardware.svg',
+    title: 'POS Software & Hardware',
+    description:
+      'Simplify your retail operations with our intuitive POS systems designed to streamline transactions, manage inventory, and enhance customer experiences.',
+  },
+  {
+    imageUrl: '/ranges/account-payroll-outsource.svg',
+    title: 'Account & Payroll Outsource',
+    description:
+      'Bookkeeping, accounts payable and receivable management, payroll processing, financial reporting, tax preparation, and compliance services.',
+  },
+]
+
 useSeoMeta({
   title: 'Home',
 })

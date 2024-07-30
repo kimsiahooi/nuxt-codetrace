@@ -15,19 +15,23 @@ h3,
 h4,
 h5,
 h6 {
-  @apply text-primary font-extrabold;
+  @apply text-primary font-extrabold !leading-snug;
+
+  &:not(:last-child) {
+    @apply mb-5;
+  }
 }
 
 h1 {
-  @apply text-3xl md:text-5xl;
+  @apply text-3xl lg:text-5xl;
 }
 
 h2 {
-  @apply text-3xl md:text-4xl;
+  @apply text-3xl lg:text-4xl;
 }
 
 h3 {
-  @apply text-2xl md:text-3xl;
+  @apply text-2xl lg:text-3xl;
 }
 
 h4 {
