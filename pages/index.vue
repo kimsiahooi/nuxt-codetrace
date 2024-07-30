@@ -205,9 +205,68 @@
       </div>
     </div>
   </section>
+
+  <section class="py-5 lg:py-7">
+    <div class="container mx-auto">
+      <p class="text-xl font-bold mb-5">E-Invoice Implementation Timeline</p>
+      <div class="bg-[#512b73] p-8 rounded-xl text-white">
+        <div class="flex flex-wrap flex-col -mx-4 gap-y-8 lg:flex-row">
+          <div class="w-full px-4 lg:w-1/3 relative">
+            <img
+              src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/arrow.png"
+              alt="arrow"
+              class="lg:absolute lg:top-4 lg:right-4 hidden lg:block w-32 xl:right-12" />
+            <div class="space-y-5">
+              <h2 class="text-[#FFFFFF1A] font-bold text-4xl">Phase 1</h2>
+              <p class="font-bold">1 August 2024</p>
+              <div class="pl-7 relative">
+                <ChevronRight class="w-5 h-5 absolute top-0 left-0" />
+                <p>
+                  Mandatory implementation for taxpayers with an
+                  <span class="font-bold">annual turnover or revenue of > RM100m</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/3 relative">
+            <img
+              src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/arrow.png"
+              alt="arrow"
+              class="lg:absolute lg:top-4 lg:right-4 hidden lg:block w-32 xl:right-12" />
+            <div class="space-y-5">
+              <h2 class="text-[#FFFFFF1A] font-bold text-4xl">Phase 2</h2>
+              <p class="font-bold">1 January 2025</p>
+              <div class="pl-7 relative">
+                <ChevronRight class="w-5 h-5 absolute top-0 left-0" />
+                <p>
+                  Mandatory implementation for taxpayers with an
+                  <span class="font-bold">annual turnover or revenue between RM25. to RM100m</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/3 relative">
+            <div class="space-y-5">
+              <h2 class="text-[#FFFFFF1A] font-bold text-4xl">Phase 3</h2>
+              <p class="font-bold">1 July 2025</p>
+              <div class="pl-7 relative">
+                <ChevronRight class="w-5 h-5 absolute top-0 left-0" />
+                <p>
+                  Mandatory implementation for
+                  <span class="font-bold">all other taxpayers</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script setup lang="ts">
+import { ChevronRight } from 'lucide-vue-next'
+
 const iconlist = [
   {
     imgUrl: 'https://codetrace-bs.com.my/wp-content/uploads/2024/06/10-years-experience-1.webp',
