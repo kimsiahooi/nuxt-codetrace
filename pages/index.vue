@@ -136,7 +136,7 @@
             alt="Your One-Stop Destination for Business Digitalization Solutions" />
         </div>
         <div class="md:w-1/2">
-          <h2>Your One-Stop Destination for Business Digitalization Solutions</h2>
+          <h3>Your One-Stop Destination for Business Digitalization Solutions</h3>
           <div class="space-y-5 text-justify">
             <p>
               At Codetrace, we understand the evolving landscape of business operations and the increasing need for
@@ -158,7 +158,7 @@
 
   <section class="py-5 lg:py-7">
     <div class="container mx-auto">
-      <h2>Our Range of Digital Solutions</h2>
+      <h3>Our Range of Digital Solutions</h3>
       <div class="flex flex-wrap -mx-4 gap-y-4 md:gap-y-8">
         <div v-for="(range, index) in ranges" class="px-4 w-full md:w-1/2 xl:w-1/3 flex flex-col" :key="range.title">
           <div class="p-5 border transition rounded-lg group hover:border-primary space-y-5 flex-1">
@@ -169,6 +169,36 @@
             <h5 class="font-semibold text-black group-hover:text-primary transition">{{ range.title }}</h5>
             <p class="text-justify !mt-3 !mb-5">
               {{ range.description }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 lg:py-7">
+    <div class="container mx-auto">
+      <div class="flex flex-col flex-wrap -mx-4 md:flex-row gap-y-5">
+        <div class="w-full md:w-1/3 px-4">
+          <h3>E-Invoice Introduction</h3>
+        </div>
+        <div class="w-full md:w-2/3 px-4">
+          <div class="space-y-5">
+            <p>In Malaysia, e-invoice is being implemented with two distinct yet complementing components, which is;</p>
+            <ol class="space-y-3">
+              <li>
+                MDED has been mandated by the Government to implement e-invoice for business digitalisation using the
+                Peppol framework
+              </li>
+              <li>
+                Lembaga Hasil Dalam Negeri Malaysia (LHDNM) is undertaking the e-invoice for tax reporting and
+                compliance
+              </li>
+            </ol>
+            <p>
+              These two components completes the e-invoice ecosystem in the country, and when business adopt
+              interoperable e-invoice using Peppol framework, they will also fulfill the requirements for tax reporting
+              as well.
             </p>
           </div>
         </div>
