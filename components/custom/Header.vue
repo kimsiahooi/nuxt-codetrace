@@ -39,7 +39,7 @@
               <Sheet>
                 <SheetTrigger class="lg:hidden">
                   <Button variant="outline" size="icon" class="hover:bg-primary/5">
-                    <Icon name="lucide:menu" />
+                    <Menu class="w-5 h-5" />
                   </Button>
                 </SheetTrigger>
                 <SheetContent>
@@ -82,5 +82,6 @@
 
 <script setup lang="ts">
 import { navlinks } from '@/contants/navlinks'
+import { Menu } from 'lucide-vue-next'
 import { VisuallyHidden } from 'radix-vue'
 </script>
