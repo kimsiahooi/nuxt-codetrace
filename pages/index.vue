@@ -262,6 +262,18 @@
       </div>
     </div>
   </section>
+
+  <section class="py-5 lg:py-7">
+    <div class="container mx-auto">
+      <div class="border rounded-xl">
+        <div class="text-center">
+          <div>
+            <p class="font-bold text-primary text-xl">Before E-Invoice</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script setup lang="ts">
