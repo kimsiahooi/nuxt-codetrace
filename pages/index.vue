@@ -721,6 +721,31 @@
       </div>
     </div>
   </section>
+
+  <section class="pb-5 pt-10 lg:pb-7 lg:pt-14 bg-secondary -mt-10 lg:-mt-14">
+    <div class="container mx-auto">
+      <div class="text-center text-white mb-8">
+        <h3 class="text-white">The No. 1 Accounting Software</h3>
+        <p>Trusted by more than 250,000 customers</p>
+      </div>
+      <div>
+        <div class="overflow-x-hidden relative">
+          <div class="flex min-w-max infinite-loop">
+            <div v-for="num in 2" :key="num" class="flex min-w-max">
+              <div
+                class="flex-1 min-w-[33vw] md:min-w-[25vw] lg:min-w-[20vw] xl:min-w-[calc(13vw)] px-4 text-center"
+                v-for="software in softwares"
+                :key="software.imageUrl">
+                <img :src="software.imageUrl" alt="sql logo" class="w-16 inline-block" />
+              </div>
+            </div>
+          </div>
+          <div class="absolute top-0 left-0 h-full aspect-square bg-gradient-to-r from-secondary to-transparent"></div>
+          <div class="absolute top-0 right-0 h-full aspect-square bg-gradient-to-l from-secondary to-transparent"></div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script setup lang="ts">
@@ -815,6 +840,37 @@ const whyadvantages = [
   },
 ]
 
+const softwares = [
+  {
+    imageUrl:
+      'https://codetrace-bs.com.my/wp-content/uploads/elementor/thumbs/sql-account-stock-take-qmqokd20rgt3fjt31x36uglxgnhydtjyeq5rg5ozss.png',
+  },
+  {
+    imageUrl:
+      'https://codetrace-bs.com.my/wp-content/uploads/elementor/thumbs/sql-pos-qmqokexp54vo2rqcqxwfzg4unf8ot7rf2zgqepm7gc.png',
+  },
+  {
+    imageUrl:
+      'https://codetrace-bs.com.my/wp-content/uploads/elementor/thumbs/sql-cloud-qmqokdzuyaudr5rpwfhteyde21dblinoqut8xfnlmk.png',
+  },
+  {
+    imageUrl:
+      'https://codetrace-bs.com.my/wp-content/uploads/elementor/thumbs/sql-account-qmqokd20rgt3fjt31x36uglxgnhydtjyeq5rg5ozss.png',
+  },
+  {
+    imageUrl:
+      'https://codetrace-bs.com.my/wp-content/uploads/elementor/thumbs/sql-pay-qmqokdzuyaudr5rpwfhteyde21dblinoqut8xfnlmk.png',
+  },
+  {
+    imageUrl:
+      'https://codetrace-bs.com.my/wp-content/uploads/elementor/thumbs/sql-connect-qmqokdzuyaudr5rpwfhteyde21dblinoqut8xfnlmk.png',
+  },
+  {
+    imageUrl:
+      'https://codetrace-bs.com.my/wp-content/uploads/elementor/thumbs/sql-payroll-qmqokdzuyaudr5rpwfhteyde21dblinoqut8xfnlmk.png',
+  },
+]
+
 useSeoMeta({
   title: 'Home',
 })
@@ -823,3 +879,15 @@ useHead({
   link: [{ rel: 'canonical', href: 'http://localhost:3000' }],
 })
 </script>
+
+<style scoped lang="scss">
+.infinite-loop {
+  animation: infiniteloop 20s linear infinite;
+}
+
+@keyframes infiniteloop {
+  to {
+    transform: translateX(-50%);
+  }
+}
+</style>
