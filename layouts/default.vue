@@ -2,7 +2,7 @@
   <div>
     <CustomHeader />
     <slot />
-    <CustomFooter />
+    <!-- <CustomFooter /> -->
   </div>
 </template>
 

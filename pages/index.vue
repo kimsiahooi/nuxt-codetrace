@@ -979,11 +979,8 @@ const softwares = [
   },
 ]
 
-useSeoMeta({
-  title: 'Home',
-})
-
 useHead({
+  title: 'Home',
   link: [{ rel: 'canonical', href: 'http://localhost:3000' }],
 })
 </script>
