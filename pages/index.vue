@@ -114,7 +114,7 @@
     </div>
   </section>
 
-  <section class="pt-10 pb-5 lg:pt-14 lg:pb-7">
+  <section class="pt-16 pb-8 lg:pt-24 lg:pb-12">
     <div class="container mx-auto">
       <div class="flex justify-center flex-wrap -mx-4 gap-y-8">
         <div v-for="icon in iconlist" :class="icon.containerClass">
@@ -127,7 +127,7 @@
     </div>
   </section>
 
-  <section class="py-5 lg:py-7">
+  <section class="py-8 lg:py-12">
     <div class="container mx-auto">
       <div class="flex flex-col gap-8 items-center md:flex-row">
         <div class="md:w-1/2">
@@ -156,7 +156,7 @@
     </div>
   </section>
 
-  <section class="py-5 lg:py-7">
+  <section class="py-8 lg:py-12">
     <div class="container mx-auto">
       <h3>Our Range of Digital Solutions</h3>
       <div class="flex flex-wrap -mx-4 gap-y-4 md:gap-y-8">
@@ -176,7 +176,7 @@
     </div>
   </section>
 
-  <section class="py-5 lg:py-7">
+  <section class="py-8 lg:py-12">
     <div class="container mx-auto">
       <div class="flex flex-col flex-wrap -mx-4 md:flex-row gap-y-5">
         <div class="w-full md:w-1/3 px-4">
@@ -206,7 +206,7 @@
     </div>
   </section>
 
-  <section class="py-5 lg:py-7">
+  <section class="py-8 lg:py-12">
     <div class="container mx-auto">
       <p class="text-xl font-bold mb-5">E-Invoice Implementation Timeline</p>
       <div class="bg-[#512b73] p-8 rounded-xl text-white">
@@ -263,7 +263,7 @@
     </div>
   </section>
 
-  <section class="py-5 lg:py-7">
+  <section class="py-8 lg:py-12">
     <div class="container mx-auto">
       <div class="text-center z-10 relative">
         <div>
@@ -566,7 +566,7 @@
     </div>
   </section>
 
-  <section class="py-5 lg:py-7">
+  <section class="py-8 lg:py-12">
     <div class="container mx-auto">
       <div class="text-center z-10 relative">
         <div>
@@ -683,7 +683,7 @@
     </div>
   </section>
 
-  <section class="py-5 lg:py-7">
+  <section class="py-8 lg:py-12">
     <div class="container mx-auto">
       <div class="flex flex-wrap -mx-4 mb-8">
         <div class="px-4 w-full md:w-1/2">
@@ -722,7 +722,7 @@
     </div>
   </section>
 
-  <section class="pb-5 pt-10 lg:pb-7 lg:pt-14 bg-secondary -mt-10 lg:-mt-14">
+  <section class="pb-16 lg:pb-24 pt-16 lg:pt-24 bg-secondary -mt-16 lg:-mt-24">
     <div class="container mx-auto">
       <div class="text-center text-white mb-8">
         <h3 class="text-white">The No. 1 Accounting Software</h3>
@@ -742,6 +742,114 @@
           </div>
           <div class="absolute top-0 left-0 h-full aspect-square bg-gradient-to-r from-secondary to-transparent"></div>
           <div class="absolute top-0 right-0 h-full aspect-square bg-gradient-to-l from-secondary to-transparent"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 lg:py-24">
+    <div class="container mx-auto">
+      <div class="space-y-8">
+        <div class="flex flex-wrap -mx-4 gap-y-8 md:items-end">
+          <div class="w-full px-4 md:w-1/2">
+            <h3>Early Bird Promotion</h3>
+            <p class="text-justify">
+              Don’t miss out on this exclusive opportunity to supercharge your business with our cutting-edge digital
+              solutions. For a limited time only, we’re offering an unbeatable Early Bird Promotion that’s guaranteed to
+              add value to your business:
+            </p>
+          </div>
+          <div class="w-full px-4 md:w-1/2">
+            <div class="md:text-end">
+              <NuxtLink to="/contact-us" class="text-secondary">
+                Claim Your Early Bird Benefits Today!
+                <ChevronRight class="inline-block w-5 h-5 align-middle" />
+              </NuxtLink>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-y-8 -mx-4">
+          <div class="w-full px-4 flex flex-col md:w-1/3">
+            <div
+              class="rounded-2xl p-8 relative isolate flex-1 bg-cover bg-center bg-no-repeat group overflow-hidden"
+              style="background-image: url(https://codetrace-bs.com.my/wp-content/uploads/2024/04/Variant4-jpg.webp)">
+              <div
+                class="absolute inset-0 bg-cover bg-center bg-no-repeat -z-10 opacity-0 transition-opacity group-hover:opacity-100 duration-500"
+                style="
+                  background-image: url(https://codetrace-bs.com.my/wp-content/uploads/2024/04/Variant3-1.png);
+                "></div>
+              <div class="space-y-4">
+                <div class="h-32"></div>
+                <div>
+                  <span class="w-16 border-b border-white inline-block"></span>
+                </div>
+                <p class="text-white text-xl">Free E-invoice Module</p>
+                <p class="text-white">
+                  Unlock the power of E-invoicing with our complimentary E-invoice module, valued at up to RM2,000.00
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 flex flex-col md:w-2/3">
+            <div
+              class="rounded-2xl p-8 relative isolate flex-1 bg-cover bg-center bg-no-repeat group overflow-hidden"
+              style="background-image: url(https://codetrace-bs.com.my/wp-content/uploads/2024/04/Variant4-1-jpg.webp)">
+              <div
+                class="absolute inset-0 bg-cover bg-center bg-no-repeat -z-10 opacity-0 transition-opacity group-hover:opacity-100 duration-500"
+                style="
+                  background-image: url(https://codetrace-bs.com.my/wp-content/uploads/2024/04/Variant3-jpg.webp);
+                "></div>
+              <div class="space-y-4">
+                <div class="h-32"></div>
+                <div>
+                  <span class="w-16 border-b border-white inline-block"></span>
+                </div>
+                <div class="md:w-1/2 space-y-4">
+                  <p class="text-white text-xl">Government Subsidy</p>
+                  <p class="text-white">
+                    Take advantage of government subsidies and save even more on your digitalization journey. With our
+                    Early Bird Promotion, you can claim up to 50% of the government subsidy (subject to terms and
+                    conditions).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4">
+            <div
+              class="rounded-2xl p-8 bg-cover bg-center bg-no-repeat"
+              style="background-image: url(https://codetrace-bs.com.my/wp-content/uploads/2024/04/gradient-jpg.webp)">
+              <div class="flex flex-wrap items-center justify-between -mx-4 gap-y-8">
+                <div class="w-full px-4 text-white md:w-1/2">
+                  <div class="xl:w-3/4">
+                    <h3 class="text-white">Choose Us as Your Business Digital Partner</h3>
+                    <div class="space-y-4 mb-8">
+                      <p>
+                        Partner with Codetrace Business Solutions Sdn. Bhd to propel your business towards fast and
+                        smooth growth.
+                      </p>
+                      <p>
+                        Contact us today to embark on a journey of digital transformation with Codetrace by your side.
+                      </p>
+                    </div>
+                    <NuxtLink to="/contact-us" class="text-white py-2 px-6 bg-secondary rounded-full inline-block">
+                      Contact Us
+                    </NuxtLink>
+                  </div>
+                </div>
+                <div class="w-full px-4 md:w-1/2">
+                  <div class="xl:w-4/5 mx-auto">
+                    <div class="bg-white p-6 rounded-xl xl:px-20 shadow-[0px_0px_20px] shadow-white/70">
+                      <img
+                        src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/site-logo.png"
+                        alt="Codetrace"
+                        class="w-full" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

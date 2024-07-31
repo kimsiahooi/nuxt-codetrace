@@ -21,7 +21,7 @@
                 <NuxtLink
                   v-if="navlink.button"
                   :to="navlink.href"
-                  class="text-white py-2 px-4 bg-secondary rounded-full inline-block"
+                  class="text-white py-2 px-6 bg-secondary rounded-full inline-block"
                   >{{ navlink.name }}
                 </NuxtLink>
                 <NuxtLink
@@ -54,7 +54,7 @@
                             <NuxtLink
                               v-if="navlink.button"
                               :to="navlink.href"
-                              class="text-white py-2 px-4 bg-secondary rounded-full inline-block"
+                              class="text-white py-2 px-6 bg-secondary rounded-full inline-block"
                               >{{ navlink.name }}
                             </NuxtLink>
                             <NuxtLink
