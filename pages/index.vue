@@ -565,6 +565,123 @@
       </div>
     </div>
   </section>
+
+  <section class="py-5 lg:py-7">
+    <div class="container mx-auto">
+      <div class="text-center z-10 relative">
+        <div>
+          <p
+            class="font-bold text-white text-xl bg-secondary border-2 border-white p-2 w-11/12 mx-auto rounded-lg max-w-96">
+            E-Invoice
+          </p>
+        </div>
+      </div>
+      <div class="bg-secondary rounded-xl p-5 pt-10 -mt-5 text-white">
+        <div>
+          <div class="text-center space-y-4 mb-8 xl:hidden">
+            <p class="text-xl font-bold">E-Invoicing</p>
+            <p>The exchange of E-Invoices in a system-to-system manner, without the need of manual data entry</p>
+          </div>
+          <div>
+            <div class="flex flex-wrap -mx-4 justify-center gap-y-8 xl:hidden">
+              <div class="px-4 w-1/2 md:w-1/3">
+                <div class="text-center space-y-3">
+                  <h6 class="font-bold !mb-0 text-white">Step 1</h6>
+                  <img
+                    src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/white-account-receivable.svg"
+                    alt="Account Receivable"
+                    class="inline-block w-9" />
+                  <p>Account Receivable</p>
+                </div>
+              </div>
+              <div class="px-4 w-1/2 md:w-1/3">
+                <div class="text-center space-y-3">
+                  <h6 class="font-bold !mb-0 text-white">Step 2</h6>
+                  <img
+                    src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/white-prepare-einvoice-in-system.svg"
+                    alt="Prepare E-Invoice in System"
+                    class="inline-block w-9" />
+                  <p>Prepare E-Invoice in System</p>
+                </div>
+              </div>
+              <div class="px-4 w-1/2 md:w-1/3">
+                <div class="text-center space-y-3">
+                  <h6 class="font-bold !mb-0 text-white">Step 3</h6>
+                  <img
+                    src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/white-prepare-einvoice-in-system.svg"
+                    alt="Prepare E-Invoice in System"
+                    class="inline-block w-9" />
+                  <p>Prepare E-Invoice in System</p>
+                </div>
+              </div>
+              <div class="px-4 w-1/2 md:w-1/3">
+                <div class="text-center space-y-3">
+                  <h6 class="font-bold !mb-0 text-white">Step 4</h6>
+                  <img
+                    src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/white-account-payable.svg"
+                    alt="Account Payable"
+                    class="inline-block w-9" />
+                  <p>Account Payable</p>
+                </div>
+              </div>
+            </div>
+            <div class="hidden xl:block">
+              <div class="grid grid-cols-9">
+                <div></div>
+                <div></div>
+                <div class="border-l-4 border-white pl-3 w-2/3 relative">
+                  <h6 class="font-bold !mb-2 text-white">Step 2</h6>
+                  <p>Prepare <span class="inline-block">E-Invoice</span> in System</p>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div class="border-l-4 border-white pl-3 w-2/3 relative">
+                  <h6 class="font-bold !mb-2 text-white">Step 3</h6>
+                  <p>Prepare <span class="inline-block">E-Invoice</span> in System</p>
+                </div>
+                <div></div>
+              </div>
+              <div class="relative">
+                <img
+                  src="https://codetrace-bs.com.my/wp-content/uploads/2024/06/einvoice-1.webp"
+                  alt="Paper Invoice"
+                  class="w-full" />
+                <p class="text-xl font-bold absolute left-1/2 -translate-x-1/2 bottom-full">E-Invoicing</p>
+                <p class="absolute left-1/2 -translate-x-1/2 text-center w-1/3 top-1/3">
+                  The exchange of E-Invoices in a system-to-system manner, without the need of manual data entry
+                </p>
+              </div>
+              <div class="grid grid-cols-9">
+                <div></div>
+                <div class="border-l-4 border-white pl-3 w-2/3 relative">
+                  <h6 class="font-bold !mb-2 text-white">Step 1</h6>
+                  <p>Account Receivable</p>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div class="border-l-4 border-white pl-3 w-2/3 relative">
+                  <h6 class="font-bold !mb-2 text-white">Step 4</h6>
+                  <p>Account Payable</p>
+                </div>
+              </div>
+            </div>
+            <div class="text-center mt-8">
+              <p>
+                E-Invoicing is the exchange of electronic invoices (E-Invoices) in an integrated and structured data
+                format
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script setup lang="ts">
