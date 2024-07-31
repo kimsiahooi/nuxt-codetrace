@@ -265,10 +265,301 @@
 
   <section class="py-5 lg:py-7">
     <div class="container mx-auto">
-      <div class="border rounded-xl">
-        <div class="text-center">
+      <div class="text-center z-10 relative">
+        <div>
+          <p class="font-bold text-primary text-xl bg-gray-100 p-2 w-11/12 mx-auto rounded-lg max-w-96">
+            Before E-Invoice
+          </p>
+        </div>
+      </div>
+      <div class="border border-gray-100 rounded-xl p-5 pt-10 -mt-5">
+        <div>
+          <div class="text-center space-y-4 mb-8">
+            <p class="text-xl font-bold">Paper Invoice</p>
+          </div>
           <div>
-            <p class="font-bold text-primary text-xl">Before E-Invoice</p>
+            <div class="flex flex-wrap -mx-4 justify-center gap-y-8 xl:hidden">
+              <div class="px-4 w-1/2 md:w-1/3">
+                <div class="text-center space-y-3">
+                  <h6 class="font-bold !mb-0">Step 1</h6>
+                  <img
+                    src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/Account-Receivable.svg"
+                    alt="Account Receivable"
+                    class="inline-block w-9" />
+                  <p>Account Receivable</p>
+                </div>
+              </div>
+              <div class="px-4 w-1/2 md:w-1/3">
+                <div class="text-center space-y-3">
+                  <h6 class="font-bold !mb-0">Step 2</h6>
+                  <img
+                    src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/Prepare-Invoice.svg"
+                    alt="Prepare Invoice"
+                    class="inline-block w-9" />
+                  <p>Prepare Invoice</p>
+                </div>
+              </div>
+              <div class="px-4 w-1/2 md:w-1/3">
+                <div class="text-center space-y-3">
+                  <h6 class="font-bold !mb-0">Step 3</h6>
+                  <img
+                    src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/Printout.svg"
+                    alt="Printout"
+                    class="inline-block w-9" />
+                  <p>Printout</p>
+                </div>
+              </div>
+              <div class="px-4 w-1/2 md:w-1/3">
+                <div class="text-center space-y-3">
+                  <h6 class="font-bold !mb-0">Step 4</h6>
+                  <img
+                    src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/Mailroom.svg"
+                    alt="Mailroom"
+                    class="inline-block w-9" />
+                  <p>Mailroom</p>
+                </div>
+              </div>
+              <div class="px-4 w-1/2 md:w-1/3">
+                <div class="text-center space-y-3">
+                  <h6 class="font-bold !mb-0">Step 5</h6>
+                  <img
+                    src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/Post.svg"
+                    alt="Post"
+                    class="inline-block w-9" />
+                  <p>Post</p>
+                </div>
+              </div>
+              <div class="px-4 w-1/2 md:w-1/3">
+                <div class="text-center space-y-3">
+                  <h6 class="font-bold !mb-0">Step 6</h6>
+                  <img
+                    src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/Mailroom.svg"
+                    alt="Mailroom"
+                    class="inline-block w-9" />
+                  <p>Mailroom</p>
+                </div>
+              </div>
+              <div class="px-4 w-1/2 md:w-1/3">
+                <div class="text-center space-y-3">
+                  <h6 class="font-bold !mb-0">Step 7</h6>
+                  <img
+                    src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/Routing.svg"
+                    alt="Routing"
+                    class="inline-block w-9" />
+                  <p>Routing</p>
+                </div>
+              </div>
+              <div class="px-4 w-1/2 md:w-1/3">
+                <div class="text-center space-y-3">
+                  <h6 class="font-bold !mb-0">Step 8</h6>
+                  <img
+                    src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/Data-Entry.svg"
+                    alt="Data Entry"
+                    class="inline-block w-9" />
+                  <p>Data Entry</p>
+                </div>
+              </div>
+              <div class="px-4 w-1/2 md:w-1/3">
+                <div class="text-center space-y-3">
+                  <h6 class="font-bold !mb-0">Step 9</h6>
+                  <img
+                    src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/Account-Payable.svg"
+                    alt="Account Payable"
+                    class="inline-block w-9" />
+                  <p>Account Payable</p>
+                </div>
+              </div>
+            </div>
+            <div class="hidden xl:block">
+              <div class="grid grid-cols-9">
+                <div></div>
+                <div class="border-l-4 border-primary pl-3 w-2/3 relative left-1/2">
+                  <h6 class="font-bold !mb-2">Step 2</h6>
+                  <p>Prepare Invoice</p>
+                </div>
+                <div></div>
+                <div class="border-l-4 border-primary pl-3 w-2/3 relative left-1/2">
+                  <h6 class="font-bold !mb-2">Step 4</h6>
+                  <p>Mailroom</p>
+                </div>
+                <div></div>
+                <div class="border-l-4 border-primary pl-3 w-2/3 relative left-1/2">
+                  <h6 class="font-bold !mb-2">Step 6</h6>
+                  <p>Mailroom</p>
+                </div>
+                <div></div>
+                <div class="border-l-4 border-primary pl-3 w-2/3 relative left-1/2">
+                  <h6 class="font-bold !mb-2">Step 8</h6>
+                  <p>Data Entry</p>
+                </div>
+                <div></div>
+              </div>
+              <img
+                src="https://codetrace-bs.com.my/wp-content/uploads/2024/06/paper-invoice-1.webp"
+                alt="Paper Invoice"
+                class="w-full" />
+              <div class="grid grid-cols-9">
+                <div class="border-l-4 border-primary pl-3 w-2/3 relative left-1/2">
+                  <h6 class="font-bold !mb-2">Step 1</h6>
+                  <p>Account Receivable</p>
+                </div>
+                <div></div>
+                <div class="border-l-4 border-primary pl-3 w-2/3 relative left-1/2">
+                  <h6 class="font-bold !mb-2">Step 3</h6>
+                  <p>Printout</p>
+                </div>
+                <div></div>
+                <div class="border-l-4 border-primary pl-3 w-2/3 relative left-1/2">
+                  <h6 class="font-bold !mb-2">Step 5</h6>
+                  <p>Post</p>
+                </div>
+                <div></div>
+                <div class="border-l-4 border-primary pl-3 w-2/3 relative left-1/2">
+                  <h6 class="font-bold !mb-2">Step 7</h6>
+                  <p>Routing</p>
+                </div>
+                <div></div>
+                <div class="border-l-4 border-primary pl-3 w-2/3 relative left-1/2">
+                  <h6 class="font-bold !mb-2">Step 9</h6>
+                  <p>Account Payable</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="py-8">
+          <div class="border-b border-gray-100"></div>
+        </div>
+        <div>
+          <div class="text-center space-y-4 mb-8">
+            <p class="text-xl font-bold">Invoice in PDF</p>
+            <p>
+              Invoice in PDF, Excel, Word or other relevant formats that does not involve system-to-system data
+              transmission
+            </p>
+          </div>
+          <div>
+            <div class="flex flex-wrap -mx-4 justify-center gap-y-8 xl:hidden">
+              <div class="px-4 w-1/2 md:w-1/3">
+                <div class="text-center space-y-3">
+                  <h6 class="font-bold !mb-0">Step 1</h6>
+                  <img
+                    src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/Account-Receivable.svg"
+                    alt="Account Receivable"
+                    class="inline-block w-9" />
+                  <p>Account Receivable</p>
+                </div>
+              </div>
+              <div class="px-4 w-1/2 md:w-1/3">
+                <div class="text-center space-y-3">
+                  <h6 class="font-bold !mb-0">Step 2</h6>
+                  <img
+                    src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/Prepare-Invoice.svg"
+                    alt="Prepare Invoice"
+                    class="inline-block w-9" />
+                  <p>Prepare Invoice</p>
+                </div>
+              </div>
+              <div class="px-4 w-1/2 md:w-1/3">
+                <div class="text-center space-y-3">
+                  <h6 class="font-bold !mb-0">Step 3</h6>
+                  <img
+                    src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/pdf.svg"
+                    alt="Generate Invoice in PDF format"
+                    class="inline-block w-9" />
+                  <p>Generate Invoice in PDF format</p>
+                </div>
+              </div>
+              <div class="px-4 w-1/2 md:w-1/3">
+                <div class="text-center space-y-3">
+                  <h6 class="font-bold !mb-0">Step 4</h6>
+                  <img
+                    src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/Post.svg"
+                    alt="Send PDF invoice via email"
+                    class="inline-block w-9" />
+                  <p>Send PDF invoice via email</p>
+                </div>
+              </div>
+              <div class="px-4 w-1/2 md:w-1/3">
+                <div class="text-center space-y-3">
+                  <h6 class="font-bold !mb-0">Step 5</h6>
+                  <img
+                    src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/mail.svg"
+                    alt="Receive PDF invoice in email"
+                    class="inline-block w-9" />
+                  <p>Receive PDF invoice in email</p>
+                </div>
+              </div>
+              <div class="px-4 w-1/2 md:w-1/3">
+                <div class="text-center space-y-3">
+                  <h6 class="font-bold !mb-0">Step 6</h6>
+                  <img
+                    src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/Data-Entry.svg"
+                    alt="Data Entry"
+                    class="inline-block w-9" />
+                  <p>Data Entry</p>
+                </div>
+              </div>
+              <div class="px-4 w-1/2 md:w-1/3">
+                <div class="text-center space-y-3">
+                  <h6 class="font-bold !mb-0">Step 7</h6>
+                  <img
+                    src="https://codetrace-bs.com.my/wp-content/uploads/2024/04/Account-Payable.svg"
+                    alt="Account Payable"
+                    class="inline-block w-9" />
+                  <p>Account Payable</p>
+                </div>
+              </div>
+            </div>
+            <div class="hidden xl:block">
+              <div class="grid grid-cols-9">
+                <div></div>
+                <div></div>
+                <div class="border-l-4 border-primary pl-3 w-2/3 relative left-[42%]">
+                  <h6 class="font-bold !mb-2">Step 2</h6>
+                  <p>Prepare Invoice</p>
+                </div>
+                <div></div>
+                <div class="border-l-4 border-primary pl-3 w-2/3 relative left-[42%]">
+                  <h6 class="font-bold !mb-2">Step 4</h6>
+                  <p>Send PDF Invoice via email</p>
+                </div>
+                <div></div>
+                <div class="border-l-4 border-primary pl-3 w-2/3 relative left-[42%]">
+                  <h6 class="font-bold !mb-2">Step 6</h6>
+                  <p>Data Entry</p>
+                </div>
+                <div></div>
+                <div></div>
+              </div>
+              <img
+                src="https://codetrace-bs.com.my/wp-content/uploads/2024/06/invoice-in-pdf.webp"
+                alt="Paper Invoice"
+                class="w-full" />
+              <div class="grid grid-cols-9">
+                <div></div>
+                <div class="border-l-4 border-primary pl-3 w-2/3 relative left-[42%]">
+                  <h6 class="font-bold !mb-2">Step 1</h6>
+                  <p>Account Receivable</p>
+                </div>
+                <div></div>
+                <div class="border-l-4 border-primary pl-3 w-2/3 relative left-[42%]">
+                  <h6 class="font-bold !mb-2">Step 3</h6>
+                  <p>Generate Invoice in PDF Format</p>
+                </div>
+                <div></div>
+                <div class="border-l-4 border-primary pl-3 w-2/3 relative left-[42%]">
+                  <h6 class="font-bold !mb-2">Step 5</h6>
+                  <p>Receive PDF invoice in email</p>
+                </div>
+                <div></div>
+                <div class="border-l-4 border-primary pl-3 w-2/3 relative left-[42%]">
+                  <h6 class="font-bold !mb-2">Step 7</h6>
+                  <p>Account Payable</p>
+                </div>
+                <div></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
