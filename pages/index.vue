@@ -682,6 +682,45 @@
       </div>
     </div>
   </section>
+
+  <section class="py-5 lg:py-7">
+    <div class="container mx-auto">
+      <div class="flex flex-wrap -mx-4 mb-8">
+        <div class="px-4 w-full md:w-1/2">
+          <h3>Why Us</h3>
+          <p class="text-justify">
+            Codetrace Business Solutions Sdn. Bhd stands out as your premier choice for business digitalization, and
+            here’s why:
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-wrap -mx-4 gap-y-8">
+        <div
+          v-for="(whyadvantage, index) in whyadvantages"
+          :key="whyadvantage.title"
+          class="px-4 w-full md:w-1/2 xl:w-1/4 flex flex-col">
+          <div class="bg-gray-100 transition rounded-lg p-5 group hover:bg-primary duration-500 relative flex-1">
+            <p
+              class="font-bold text-xl absolute top-14 right-1/2 transition-all text-white opacity-0 group-hover:top-5 group-hover:right-5 group-hover:opacity-100 duration-500">
+              {{ (index + 1).toString().padStart(2, '0') }}
+            </p>
+            <div>
+              <h2
+                class="font-light text-gray-200 text-8xl !leading-none transition-all group-hover:scale-0 group-hover:opacity-0 duration-500">
+                {{ (index + 1).toString().padStart(2, '0') }}
+              </h2>
+              <p class="font-semibold text-lg leading-snug mb-5 transition duration-500 group-hover:text-white">
+                {{ whyadvantage.title }}
+              </p>
+              <p class="transition duration-500 group-hover:text-white">
+                {{ whyadvantage.description }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script setup lang="ts">
@@ -751,6 +790,28 @@ const ranges = [
     title: 'Account & Payroll Outsource',
     description:
       'Bookkeeping, accounts payable and receivable management, payroll processing, financial reporting, tax preparation, and compliance services.',
+  },
+]
+
+const whyadvantages = [
+  {
+    title: '10 Years Experience on SQL Accounting Software',
+    description:
+      'With a decade of expertise in SQL Accounting Software, we bring unparalleled knowledge and proficiency to the table.',
+  },
+  {
+    title: 'Sustainable Growth Company',
+    description:
+      'At Codetrace, we’re not just about short-term solutions; we’re committed to fostering sustainable growth for your business.',
+  },
+  {
+    title: 'Tailored Packages',
+    description:
+      'We understand that every business is unique, which is why we offer tailored packages designed to suit your specific requirements.',
+  },
+  {
+    title: 'System Consultation',
+    description: 'Our dedicated team provides expert system consultation based on your business nature.',
   },
 ]
 
