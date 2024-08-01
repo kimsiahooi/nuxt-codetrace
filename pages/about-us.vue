@@ -56,6 +56,6 @@
 <script setup lang="ts">
 useHead({
   title: 'About Us',
-  link: [{ rel: 'canonical', href: 'https://nuxt-codetrace.vercel.app/about-us' }],
+  link: [{ rel: 'canonical', href: 'https://codetrace.kimsiah.com/about-us' }],
 })
 </script>
