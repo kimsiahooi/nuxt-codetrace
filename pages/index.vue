@@ -981,7 +981,7 @@ const softwares = [
 
 useHead({
   title: 'Home',
-  link: [{ rel: 'canonical', href: 'https://nuxt-codetrace-8zbk9ajo6-kimsiahoois-projects.vercel.app/about-us' }],
+  link: [{ rel: 'canonical', href: 'https://nuxt-codetrace-iomlcxk6l-kimsiahoois-projects.vercel.app/about-us' }],
 })
 </script>
 
