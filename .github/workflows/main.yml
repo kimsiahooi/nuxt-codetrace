@@ -23,6 +23,6 @@ jobs:
         with:
           server: 153.92.8.66
           username: u263620635.kimsiahooi
-          password: Jasonooi8149
+          password: ${{ secrets.FTPPASSWORD }}
           local-dir: './dist/'
-          server-dir: 'public_html/codetrace/'
+          server-dir: 'codetrace/'
