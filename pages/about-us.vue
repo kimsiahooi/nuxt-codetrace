@@ -32,7 +32,7 @@
           <div class="flex flex-wrap -mx-4 gap-y-8">
             <div class="w-full px-4 md:w-1/2 md:border-r">
               <img src="/about-us/vision.svg" alt="Vision" class="w-10 mb-5" />
-              <h4 class="!mb-3">Our Vision</h4>
+              <h4 class="!mb-3">Vision</h4>
               <p class="text-justify">
                 Forward-looking, aiming to shape the future of business operations through innovation, global impact,
                 customer empowerment, and a commitment to sustainability and excellence.
@@ -40,7 +40,7 @@
             </div>
             <div class="w-full px-4 md:w-1/2">
               <img src="/about-us/mission.svg" alt="Vision" class="w-10 mb-5" />
-              <h4 class="!mb-3">Our Mission</h4>
+              <h4 class="!mb-3">Mission</h4>
               <p class="text-justify">
                 Empower organizations to operate more efficiently, competitively, and profitably in their respective
                 markets through the strategic use of integrated software solutions.
