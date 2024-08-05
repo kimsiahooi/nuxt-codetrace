@@ -21,7 +21,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ftp.kimsiah.com
+          server: ftp://kimsiah.com
           username: u263620635.kimsiahooi
           password: ${{ secrets.FTPPASSWORD }}
           protocol: ftps
