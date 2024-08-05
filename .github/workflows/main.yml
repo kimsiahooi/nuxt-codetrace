@@ -1,31 +1,29 @@
+name: 🚀 Deploy website on push
 on:
   push:
-    branches: main
-    name: 🚀 Deploy website on push
-      jobs:
-        web-deploy:
-          name: 🎉 Deploy
-          runs-on: ubuntu-latest
-          steps:
-            - name: 🚚 Get latest code
-              uses: actions/checkout@v4
-
-            - name: Use Node.js 20
-              uses: actions/setup-node@v4
-              with:
-                node-version: '20'
-
-            - name: 🔨 Build Project
-              run: |
-                npm install
-                npm run generate
-
-            - name: 📂 Sync files
-              uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-              with:
-                server: ftp.kimsiah.com
-                username: u263620635.kimsiahooi
-                password: ${{ secrets.FTPPASSWORD }}
-                protocol: ftps
-                local-dir: './dist/'
-                server-dir: 'public_html/codetrace/'
+    branches:
+      - 'main'
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v4
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: 🔨 Build Project
+        run: |
+          npm install
+          npm run generate
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ftp.kimsiah.com
+          username: u263620635.kimsiahooi
+          password: ${{ secrets.FTPPASSWORD }}
+          protocol: ftps
+          local-dir: './dist/'
+          server-dir: 'public_html/codetrace/'
