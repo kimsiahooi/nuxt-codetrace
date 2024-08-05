@@ -5,7 +5,10 @@ export default defineNuxtConfig({
   typescript: {
     typeCheck: true,
   },
-  modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt', '@nuxt/icon', 'nuxt-swiper'],
+  modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt', '@nuxt/icon', 'nuxt-swiper', '@nuxt/image'],
+  image: {
+    format: ['webp'],
+  },
   shadcn: {
     /**
      * Prefix for all the imported component
