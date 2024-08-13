@@ -46,6 +46,10 @@ h6 {
   @apply text-lg;
 }
 
+.test {
+  
+}
+
 .swiper-button-prev,
 .swiper-button-next {
   @apply bg-primary w-[30px] h-[30px] inline-block;
